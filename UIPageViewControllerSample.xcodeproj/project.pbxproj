@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0E26060A1C74D53200B01779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2606091C74D53200B01779 /* AppDelegate.swift */; };
-		0E26060C1C74D53200B01779 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E26060B1C74D53200B01779 /* ViewController.swift */; };
+		0E26060C1C74D53200B01779 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E26060B1C74D53200B01779 /* ParentViewController.swift */; };
 		0E26060F1C74D53200B01779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E26060D1C74D53200B01779 /* Main.storyboard */; };
 		0E2606111C74D53200B01779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2606101C74D53200B01779 /* Assets.xcassets */; };
 		0E2606141C74D53200B01779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2606121C74D53200B01779 /* LaunchScreen.storyboard */; };
 		0E26061F1C74D53200B01779 /* UIPageViewControllerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E26061E1C74D53200B01779 /* UIPageViewControllerSampleTests.swift */; };
 		0E26062A1C74D53200B01779 /* UIPageViewControllerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2606291C74D53200B01779 /* UIPageViewControllerSampleUITests.swift */; };
+		0E2606381C74D78300B01779 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2606371C74D78300B01779 /* ContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		0E2606061C74D53200B01779 /* UIPageViewControllerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPageViewControllerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2606091C74D53200B01779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0E26060B1C74D53200B01779 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E26060B1C74D53200B01779 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
 		0E26060E1C74D53200B01779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E2606101C74D53200B01779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E2606131C74D53200B01779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		0E2606251C74D53200B01779 /* UIPageViewControllerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPageViewControllerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2606291C74D53200B01779 /* UIPageViewControllerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageViewControllerSampleUITests.swift; sourceTree = "<group>"; };
 		0E26062B1C74D53200B01779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E2606371C74D78300B01779 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				0E2606091C74D53200B01779 /* AppDelegate.swift */,
-				0E26060B1C74D53200B01779 /* ViewController.swift */,
+				0E26060B1C74D53200B01779 /* ParentViewController.swift */,
 				0E26060D1C74D53200B01779 /* Main.storyboard */,
 				0E2606101C74D53200B01779 /* Assets.xcassets */,
 				0E2606121C74D53200B01779 /* LaunchScreen.storyboard */,
 				0E2606151C74D53200B01779 /* Info.plist */,
+				0E2606371C74D78300B01779 /* ContainerViewController.swift */,
 			);
 			path = UIPageViewControllerSample;
 			sourceTree = "<group>";
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E26060C1C74D53200B01779 /* ViewController.swift in Sources */,
+				0E26060C1C74D53200B01779 /* ParentViewController.swift in Sources */,
+				0E2606381C74D78300B01779 /* ContainerViewController.swift in Sources */,
 				0E26060A1C74D53200B01779 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
